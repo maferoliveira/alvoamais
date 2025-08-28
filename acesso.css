@@ -1,0 +1,19 @@
+                body {
+                    font-size: larger;
+                    font-family: 'The Youngest';
+                    color: #2E8B57;
+                    text-align: center;
+                    background: #aed3ae;
+                }
+                button {
+                    font-family:'The Youngest';
+            margin-top: 10px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background-color: #4f6d4c;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }

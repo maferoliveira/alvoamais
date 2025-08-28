@@ -1,0 +1,89 @@
+
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
+
+        header {
+            background-color: #789775; /* verde claro */
+            padding: 20px 0;
+        }
+
+        header h1 {
+            background: #0b3d1e; /* verde escuro */
+            color: #fff;
+            display: inline-block;
+            padding: 15px 50px;
+            font-size: 2.2rem;
+            border-radius: 5px;
+            clip-path: polygon(15% 0, 85% 0, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+        }
+
+        header p {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            color: #f1f6f2;
+        }
+
+        /* Caixa de temas */
+        .caixa-temas {
+            background-color: #0b3d1e; 
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 30px;
+            width: 400px;
+            text-align: center;
+        }
+
+        .caixa-temas div {
+            background-color: #4f6d4c;
+            margin: 15px 0;
+            padding: 15px 20px;
+            border-radius: 30px;
+            font-size: 1rem;
+            color: #fff;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .caixa-temas div:hover {
+            background-color: #355e35;
+            transform: scale(1.05);
+        }
+
+        button {
+            font-family:'The Youngest';
+            margin-top: 10px;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            background-color: #4f6d4c;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #2e4a2d;
+        }
+
+        /* Responsividade */
+        @media (max-width: 480px) {
+            .caixa-temas {
+                width: 90%;
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 1.6rem;
+                padding: 12px 20px;
+            }
+
+            .caixa-temas div {
+                font-size: 0.95rem;
+                padding: 12px;
+            }
+        }
