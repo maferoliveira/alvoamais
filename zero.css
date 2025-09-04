@@ -1,21 +1,23 @@
 
     body {
-      font-family: Arial, sans-serif;
-      background-color: #faf7f7;
+      font-family: 'The Youngest';
+      background-color: #aed3ae;
       text-align: center;
       margin: 0;
       padding: 0;
     }
 
   
-    .header {
-      background-color: #6b8f6a;
-      color: white;
-      padding: 20px;
-      font-size: 24px;
-      border-radius: 0 0 50px 50px;
-      font-weight: bold;
-    }
+    section {
+            background-color: #1a320b;
+            color: #c7d2c7;
+            font-size: 24px;
+            margin: 50px;
+            padding: 25px;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: #24450f;
+        }
 
     .chat-box {
       background-color: #043d11;
@@ -73,4 +75,32 @@
             font-size: 1rem;
             cursor: pointer;
             transition: 0.3s;
+        }
+        
+        .top-logo {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
+        }
+        section {
+            background-color: #1a320b;
+            color: #c7d2c7;
+            font-size: 24px;
+            margin: 50px;
+            padding: 25px;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: #24450f;
+        }
+        
+        .top-logo {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
         }

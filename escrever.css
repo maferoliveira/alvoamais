@@ -2,7 +2,7 @@
         body {
             margin: 0;
             font-family: 'Georgia', serif;
-            background-color: #f7f7f7;
+            background-color: #aed3ae;
             text-align: center;
         }
 
@@ -86,4 +86,23 @@
                 font-size: 0.95rem;
                 padding: 12px;
             }
+        }
+        
+        .top-logo {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
+        }
+        section {
+            background-color: #1a320b;
+            color: #c7d2c7;
+            font-size: 24px;
+            margin: 50px;
+            padding: 25px;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: #24450f;
         }

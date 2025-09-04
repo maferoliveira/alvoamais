@@ -1,25 +1,28 @@
 
         body {
             font-family: 'Georgia', serif;
-            background: #f9f9f9;
+            background: #aed3ae;
             text-align: center;
             margin: 0;
             padding: 0;
         }
 
 
-        .titulo {
-            background-color: #6e8963;
-            color: #1c3b21;
-            padding: 18px;
-            font-size: 1.8em;
+        section {
+            background-color: #1a320b;
+            color: #c7d2c7;
+            font-size: 24px;
+            margin: 50px;
+            padding: 25px;
             font-weight: bold;
+            border-radius: 15px;
+            box-shadow: #24450f;
         }
 
         
         .botao-capitulo {
-            background-color: #b5c8b0;
-            color: #1c3b21;
+            background-color: #4f6d4c;
+            color: #bbd1be;
             border: none;
             padding: 18px 22px;
             cursor: pointer;
@@ -67,4 +70,13 @@
             font-size: 1rem;
             cursor: pointer;
             transition: 0.3s;
+        }
+        
+        .top-logo {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
         }

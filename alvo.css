@@ -8,7 +8,7 @@
         button {
             font-family:'The Youngest';
             margin-top: 10px;
-            padding: 12px 25px;
+            padding: 17px 30px;
             border: none;
             border-radius: 25px;
             background-color: #4f6d4c;
@@ -28,3 +28,12 @@
     background-color: rgb(224, 232, 223);
     box-shadow: 0 4px 8px rgb(193, 218, 185);
  }
+ 
+        .top-logo {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
+        }

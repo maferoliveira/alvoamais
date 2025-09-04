@@ -17,3 +17,20 @@
             cursor: pointer;
             transition: 0.3s;
         }
+        
+        .top-logo {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
+        }
+        .voltar {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
+        }

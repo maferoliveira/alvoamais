@@ -17,3 +17,36 @@
             cursor: pointer;
             transition: 0.3s;
         }
+        input{
+            margin: 10px;
+            padding: 17px 25px;
+            border:#24450f;
+            border-radius: 15px;
+        }
+        
+        .top-logo {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
+        }
+        .voltar {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            font-size: 14px;
+            color: #2f4f2f;
+            font-weight: bold;
+        }
+        section {
+            background-color: #1a320b;
+            color: #c7d2c7;
+            font-size: 24px;
+            margin: 50px;
+            padding: 25px;
+            font-weight: bold;
+            border-radius: 15px;
+            box-shadow: #24450f;
+        }
