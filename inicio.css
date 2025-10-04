@@ -1,7 +1,7 @@
  body {
             font-size: larger;
             font-family: 'The Youngest';
-            color: #2E8B57;
+            color: #0d3818;
             text-align: center;
             background: #aed3ae;
         }
@@ -16,6 +16,9 @@
             font-size: 1rem;
             cursor: pointer;
             transition: 0.3s;
+        }
+        button:hover{
+            color: #0d3818;
         }
         
         .top-logo {

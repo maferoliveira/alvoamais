@@ -5,8 +5,9 @@
             text-align: center;
             background: #aed3ae;
         }
+
         button {
-            font-family:'The Youngest';
+            font-family: 'The Youngest';
             margin-top: 10px;
             padding: 17px 30px;
             border: none;
@@ -17,18 +18,19 @@
             cursor: pointer;
             transition: 0.3s;
         }
-         .titulo{
-    font-family: 'The Youngest';
-    padding: 5px;
-    color:rgb(55, 71, 26);
-    margin-bottom: 20px;
-    border-radius: 5px;
-    width: 310px;
-    height: 30px;
-    background-color: rgb(224, 232, 223);
-    box-shadow: 0 4px 8px rgb(193, 218, 185);
- }
- 
+
+        .titulo {
+            font-family: 'The Youngest';
+            padding: 5px;
+            color: rgb(55, 71, 26);
+            margin-bottom: 20px;
+            border-radius: 5px;
+            width: 310px;
+            height: 30px;
+            background-color: rgb(224, 232, 223);
+            box-shadow: 0 4px 8px rgb(193, 218, 185);
+        }
+
         .top-logo {
             position: absolute;
             top: 15px;
@@ -36,4 +38,11 @@
             font-size: 14px;
             color: #2f4f2f;
             font-weight: bold;
+        }
+        #frase{
+            font-size: medium;
+        }
+        img{
+            box-shadow: #2f4f2f;
+            width: 50%;
         }
